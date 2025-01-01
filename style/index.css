@@ -91,3 +91,27 @@ main{
 .mindnight-img img{
   width: 370px;
 }
+
+/* information-container */
+.information-container{
+    text-align: center;
+    background-image: linear-gradient(#FFE7E7, #FFFAFA);
+    margin: 40px 60px;
+    padding: 90px 10px;
+}
+
+.information-container h1 {
+ font-size: 30px;
+}
+.information-container h1 span{
+ color: red;
+}
+.information-container button{
+ background-color: red;
+ color: white;
+ padding: 15px 25px;
+ border-radius: 10px;
+ border: none;
+ font-size: 20px;
+ margin-top: 20px;
+}
