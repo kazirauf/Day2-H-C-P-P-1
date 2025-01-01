@@ -96,13 +96,15 @@ main{
 .information-container{
     text-align: center;
     background-image: linear-gradient(#FFE7E7, #FFFAFA);
-    margin: 40px 60px;
+    margin: 80px 60px;
     padding: 90px 10px;
 }
 
 .information-container h1 {
  font-size: 30px;
 }
+
+
 .information-container h1 span{
  color: red;
 }
@@ -114,4 +116,43 @@ main{
  border: none;
  font-size: 20px;
  margin-top: 20px;
+}
+
+/* best offer section style */
+.best-offer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.best-offer-1st{
+width: 20%;
+}
+.best-offer-1st h3{
+color: red;
+font-size: 25px;
+}
+.best-offer-1st h1{
+
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.best-offer-1st h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+   }
+
+.best-offer-1st p{
+
+color: gray;
+}
+
+.best-offer-img-container{
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+.best-offer-img{
+    width: 300px;
 }
