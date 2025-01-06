@@ -156,3 +156,62 @@ color: gray;
 .best-offer-img{
     width: 300px;
 }
+
+/* holidays section style */
+.holidays-container{
+    margin-top: 100px;
+}
+.holidays-content{
+  text-align: center;
+}
+.holidays-content h4{
+  font-size: 18px;
+}
+.holidays-content h1{
+  font-size: 70px;
+}
+.holidays-content h1 span{
+ color: red;
+}
+.holidays-content p{
+ font-size: 16px;
+ color: gray;
+
+ text-align: center;
+}
+
+.holidays-image-container{
+    
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    
+    
+}
+.possition{
+  
+    position: relative;
+    
+}
+
+.box-img{
+    position: absolute;
+    width: 500px;
+    left: 20px;
+
+}
+.wow-woman-img{
+    position: absolute;
+ right: -1px;
+ top: -150px;
+ width: 400px;
+}
+.percent-discount-img{
+    position: relative;
+    width: 250px;
+    right: -800px;
+    top: -110px;
+    
+}
