@@ -180,8 +180,7 @@ color: gray;
  text-align: center;
 }
 
-.holidays-image-container{
-    
+.holidays-image-container{  
     height: 700px;
     display: flex;
     align-items: center;
@@ -215,3 +214,31 @@ color: gray;
     top: -110px;
     
 }
+
+/* Our Awesome Portfolio */
+.awesome-portfolio-container{
+ margin-left: 180px;
+}
+  .awesome-content h4{
+    font-size: 18px;
+    color: red;
+  }
+  .awesome-content h1{
+    font-size: 50px;
+  }
+
+  .awesome-content p{
+   font-size: 16px;
+   color: gray;
+  
+  }
+.awesome-img-main-div{
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+}
+ .awesome-img{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 15px;
+  }
