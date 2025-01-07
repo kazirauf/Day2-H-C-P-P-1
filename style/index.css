@@ -242,3 +242,47 @@ display: grid;
 grid-template-columns: auto auto auto;
 gap: 15px;
   }
+  /* email-container */
+.email-container{
+    text-align: center;
+    background-image: linear-gradient(#FFE7E7, #FFFAFA);
+    margin: 80px 60px;
+    padding: 150px 10px;
+    border-radius: 10px;
+}
+
+.email-container h1 {
+ font-size: 50px;
+}
+
+.email-container p {
+    font-size: 16px;
+    color: gray;
+   
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.input-container input{
+  padding: 20px 25px;
+  border: 0px;
+ 
+}
+.email-input{
+   width: 300px;
+   border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
+ 
+}
+.input-btn{
+    background-color: red;
+    color: white;
+    font: 20px;
+    font-weight: bolder;
+    border-bottom-right-radius: 50px;
+   border-top-right-radius: 50px;
+    
+}
